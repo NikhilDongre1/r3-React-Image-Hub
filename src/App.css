@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Montserrat';
+}
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.my-masonry-grid {
+  display: flex;
+  width: auto;
+  margin-left: -30px; 
+}
+.my-masonry-grid_column {
+  padding-left: 30px; 
+  background-clip: padding-box;
+}
+
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform .5s ease;
+
+}
+.image:hover{
+  transform: scale(1.04);
+}
+
+.heading{
+  font-weight: 700;
+}
+span{
+  color: rgb(255, 183, 0);
+}
+.input{
+  padding: 10px;
+  border: solid 2px rgb(255, 183, 0);
+  border-radius: 5px 5px;
+}
+button{
+  padding: 10px;
+border: none;
+background-color: black;
+color: white;
+border-radius: 5px;
+
+}
+.search{
+  margin-bottom: 30px;
+}
+.not-found{
+  color: rgb(46, 46, 46);
+  text-align: center;
+  margin-top: 90px;
+}
